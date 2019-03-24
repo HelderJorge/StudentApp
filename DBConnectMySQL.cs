@@ -30,7 +30,7 @@ public class DBConnectMySQL
         server = "127.0.0.1"; // o local
         database = "maisfuturo"; //Escolher a base de dados.
         uid = "root";
-        password = "mysql";
+        password = "";
 
         string connectionString;
         connectionString = "SERVER=" + server + ";" + "DATABASE=" +
